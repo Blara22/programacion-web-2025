@@ -49,10 +49,59 @@
                 <h3>Contenido multimedia</h3>
                 <audio controls autoplay muted loop>
                     <source src="audio/audio.mp3" type="audio/mp3">
-                    Tu navegador no soprta el elemento <code>audio</code>
+                    Tu navegador no soporta el elemento <code>audio</code>
                 </audio>
+                <div>
+                    <video controls autoplay muted width="500" poster="img/video-thumb.jpg">
+                        <source src="video/video.mp4" type="video/mp4">
+                        <track src="subtitles/video-en.vtt" kind="subtitles" srclang="es" label="Español">
+                    </video>
+                </div>
+            </div>
+            <div>
+                <h3>Vídeo embebido</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/skhroxL9ju8?si=s9NT6qqZ6HWFjDfD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
+
+        <div>
+            <h2>Tablas</h2>
+            <table border="1" cellpadding="5" width="80%">
+                <caption>Ejemplo de tabla</caption>
+                <thead>
+                    <tr>
+                        <th colspan="3">Encabezado de tabla</th>
+                    </tr>
+                    <tr>
+                        <th>Subencabezado 1</th>
+                        <th>Subencabezado 2</th>
+                        <th>Subencabezado 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Celda 1</td>
+                        <td>Celda 2</td>
+                        <td>Celda 3</td>
+                    </tr>
+                    <tr>
+                        <td>Celda 4</td>
+                        <td colspan="2" rowspan="2">Celda 5</td>
+                    </tr>
+                    <tr>
+                        <td>Celda 7</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Fin de la tabla</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br>
     </div>
 </body>
